@@ -1,0 +1,383 @@
+gsap.from("#herocircle",
+{
+    opacity:0,
+    scale:0,
+    duration:3
+})
+gsap.from("#logo",
+{
+    x:-100,
+    opacity:0,
+    duration:2,
+    stagger:2,
+    delay:1
+})
+gsap.from("#contactmebutton",
+{
+    x:100,
+    opacity:0,
+    duration:2,
+    stagger:2,
+    delay:2
+})
+gsap.from("#introducing",
+{
+    y:-100,
+    opacity:0,
+    duration:2,
+    stagger:2,
+    delay:1
+})
+gsap.from("#myselfhello",
+{
+    y:-100,
+    opacity:0,
+    duration:1,
+    dalay:3
+})
+gsap.from("#myselfdescription",
+{
+    y:100,
+    opacity:0,
+    duration:1,
+    dalay:5
+})
+gsap.from("#heroimg",
+{
+    y:300,
+    duration:2,
+    delay:2
+})
+gsap.from("#id",
+{
+    opacity:0,
+    scale:0,
+    z:100,
+    delay:2
+})
+gsap.from("#ps",
+{
+    opacity:0,
+    scale:0,
+    z:100,
+    delay:3
+})
+gsap.from("#Ai",
+{
+    opacity:0,
+    scale:0,
+    z:100,
+    delay:3
+})
+gsap.from("#xd",
+{
+    opacity:0,
+    scale:0,
+    z:100,
+    delay:2
+})
+gsap.from("#skill1",{
+    scrollTrigger:"#skills1",
+    z:-100,
+    scale:0,
+    duration:2,
+})
+gsap.from("#skill3",{
+    scrollTrigger:"#skill3",
+    z:-100,
+    scale:0,
+    duration:2,
+    delay:2
+})
+gsap.from("#skill2",{
+    scrollTrigger:"#skill2",
+    z:-100,
+    scale:0,
+    duration:2,
+    delay:3
+})
+gsap.from("#skill4",{
+    scrollTrigger:"#skill4",
+    z:-100,
+    scale:0,
+    duration:2,
+    delay:3
+})
+gsap.from("#myskills",{
+    scrollTrigger:"#myskills",
+    x:100,
+    scale:0,
+    duration:2,
+    delay:3
+})
+gsap.from("#project1heading",
+{ 
+    scrollTrigger:"#project1heading",
+    y:10,
+    opacity:0,
+    duration:1,
+    delay:2
+})
+gsap.from("#project1subheading",
+{ 
+    scrollTrigger:"#project1subheading",
+    marker:true,
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:2
+})
+gsap.from("#project1subheadingpara",
+{ 
+    scrollTrigger:"#project1subheadingpara",
+    y:100,
+    opacity:0,
+    duration:2,
+    delay:2
+})
+gsap.from("#readmore",
+{ 
+    scrollTrigger:"#readmore",
+    y:100,
+    opacity:0,
+    duration:2,
+    delay:2
+})
+// 
+gsap.from("#project2heading",
+{ 
+    scrollTrigger:"#project2heading",
+    y:10,
+    opacity:0,
+    duration:1,
+    delay:2
+})
+gsap.from("#project2subheading",
+{ 
+    scrollTrigger:"#project2subheading",
+    marker:true,
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:2
+})
+gsap.from("#project2subheadingpara",
+{ 
+    scrollTrigger:"#project2subheadingpara",
+    y:100,
+    opacity:0,
+    duration:2,
+    delay:2
+})
+gsap.from("#readmore2",
+{ 
+    scrollTrigger:"#readmore2",
+    y:100,
+    opacity:0,
+    duration:2,
+    delay:2
+})
+// 
+gsap.from("#project1heading5",
+{ 
+    scrollTrigger:"#project1heading5",
+    y:10,
+    opacity:0,
+    duration:1,
+    delay:2
+})
+gsap.from("#project1subheading5",
+{ 
+    scrollTrigger:"#project1subheading5",
+    marker:true,
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:2
+})
+gsap.from("#project1subheadingpara5",
+{ 
+    scrollTrigger:"#project1subheadingpara5",
+    y:100,
+    opacity:0,
+    duration:2,
+    delay:2
+})
+gsap.from("#readmore5",
+{ 
+    scrollTrigger:"#readmore",
+    y:100,
+    opacity:0,
+    duration:2,
+    delay:2
+})
+gsap.from("#three60",
+{ 
+    scrollTrigger:"#readmore",
+    x:-100,
+    opacity:0,
+    duration:1,
+    delay:2
+})
+gsap.from("#btnnn",
+{
+    scrollTrigger:"#readmore",
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:2   
+})
+gsap.from("#number1",
+{
+    scrollTrigger:"#number1",
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:3  
+})
+gsap.from("#number2",
+{
+    scrollTrigger:"#number2",
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:3  
+})
+gsap.from("#number3",
+{
+    scrollTrigger:"#number3",
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:3   
+})
+gsap.from("#number4",
+{
+    scrollTrigger:"#number4",
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:3   
+})
+gsap.from("#worktogetherheading",
+{
+    scrollTrigger:"#worktogetherheading",
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:1  
+})
+gsap.from("#worktogetherpara",
+{
+    scrollTrigger:"#worktogetherpara",
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:2  
+})
+gsap.from("#worktogetherbutton",
+{
+    scrollTrigger:"#worktogetherbutton",
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:3   
+})
+gsap.from("#contactpage",
+{
+    scrollTrigger:"#contactpage",
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:3   
+})
+gsap.from("#contacttouch",
+{
+    scrollTrigger:"#contacttouch",
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:4   
+})
+gsap.from("#contactpara",
+{
+    scrollTrigger:"#contactpara",
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:5   
+})
+gsap.from("#contactphone",
+{
+    scrollTrigger:"#contactphone",
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:7  
+})
+gsap.from("#phonenumber",
+{
+    scrollTrigger:"#phonenumber",
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:7  
+})
+gsap.from("#phonenumber1",
+{
+    scrollTrigger:"#phonenumber1",
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:7  
+})
+gsap.from("#phonenumber2",
+{
+    scrollTrigger:"#phonenumber2",
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:7  
+})
+gsap.from("#phonenumber3",
+{
+    scrollTrigger:"#phonenumber3",
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:7  
+})
+gsap.from("#phonenumber4",
+{
+    scrollTrigger:"#phonenumber4",
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:7  
+})
+gsap.from("#phonenumber5",
+{
+    scrollTrigger:"#phonenumber5",
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:7  
+})
+gsap.from("#contactphone2",
+{
+    scrollTrigger:"#contactphone2",
+    y:50,
+    opacity:0,
+    duration:1,
+    delay:7   
+})
+gsap.from("#mainer",
+{
+    scrollTrigger:"#mainer",
+    y:100,
+    opacity:0,
+    duration:1,
+    delay:2   
+})
+
+
